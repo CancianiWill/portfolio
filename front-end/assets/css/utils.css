@@ -1,0 +1,9 @@
+.line-blue{
+    width: 100px;
+    border: 1px solid var(--bg-blue)
+}
+
+.line-blue2{
+    width: 200px;
+    border: 1px solid var(--bg-blue2)
+}

@@ -1,0 +1,64 @@
+.btn-blue {
+    color: var(--bg-white);
+    background-color: var(--bg-blue);
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+.btn-blue:hover {
+    color: var(--bg-white);
+    background-color: var(--bg-blue-hover);
+}
+
+.btn-blue-outline {
+    color: var(--bg-blue);
+    background-color: transparent;
+    outline: 2px solid var(--bg-blue);
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
+.btn-blue-outline:hover {
+    color: var(--bg-white);
+    background-color: var(--bg-blue);
+    border-radius: 0px;
+    outline: none;
+}
+.btn-tooltip-default {
+    width: auto;
+    height: auto;
+    color: var(--bg-blue);
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    outline: none;
+    font-size: 1.2rem;
+}
+.btn-tooltip-default:hover {
+    color: var(--bg-blue-hover);
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0px;
+    outline: none;
+}
+.btn-login{
+    color: var(--bg-white);
+    background-color: var(--bg-blue);
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda' sans-serif;
+    font-weight: 400;
+}
+.btn-login:hover{
+    color: var(--bg-white);
+    background-color: var(--bg-blue-hover);
+    outline: none;
+    box-shadow: none;
+    font-size: 1rem;
+    font-family: 'Ruda' sans-serif;
+    font-weight: 400;
+}

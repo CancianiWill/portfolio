@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+@import './card.css';
+@import './navbar.css';
+@import './buttons.css';
+@import './font.css';
+@import './position.css';
+@import './inputs.css';
+@import './utils.css';
+:root {
+    --bg-gray:           #3E4042;
+    --bg-gray2:          #18191A;
+    --bg-blue:           #16163b;
+    --bg-blue-hover:     #0f1230;
+    --bg-blue2:          #0000a3;
+    --bg-black:          #000000;
+    --bg-brown-1:        #757575;
+    --bg-brown-2:        #f4f4f4;
+    --bg-white:          #ffffff;
+    --bg-yellow:         #fcb705;
+    --bg-purple:         #e9008c;
+}
+html, body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    background-color: #18191A;
+}
