@@ -5,5 +5,8 @@
 
 .line-blue2{
     width: 200px;
-    border: 1px solid var(--bg-blue2)
+    border: 1px solid var(--bg-white)
+}
+.devicon{
+    color: var(--bg-white)
 }
