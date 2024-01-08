@@ -245,3 +245,51 @@ body {
     align-items: center;
     flex-wrap: wrap; /* Para que os cards se movam para a linha seguinte em telas menores */
 }
+
+.card-text {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+  }
+
+.card3:hover .card-text {
+    max-height: 100px; /* Altura máxima que você deseja exibir ao passar o mouse */
+  }
+  #contact .container .row .col-md-4 {
+    margin-left: 30px;
+  }
+
+  @media (min-width: 576px) {
+    .card3 {
+        width: 100%; /* Cards ocupam 100% da largura em telas menores */
+    }
+}
+
+@media (min-width: 768px) {
+    .card3 {
+        width: 48%; /* Cards ocupam 48% da largura em telas médias */
+    }
+}
+
+@media (min-width: 992px) {
+    .card3 {
+        width: 32%; /* Cards ocupam 32% da largura em telas grandes */
+    }
+}
+
+.card3-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite a quebra para a próxima linha em telas menores */
+    justify-content: space-between; /* Distribui os cards uniformemente na linha */
+}
+
+.card3 {
+    border-radius: 16px;
+    box-shadow: rgba(255, 255, 255, 0.575) 0px 2px 3px;
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 20px; /* Adicionei um espaço entre os cards */
+    overflow: hidden;
+    background-image: linear-gradient(#333, #333);
+    transition: all .5s;
+}

@@ -775,7 +775,6 @@ body.light-mode #home img#notebook-2-white {
 /*===== CONTACT ===============================================*/
 
 #contact {
-  text-align: left;
   background-color: var(--secundary-color);
 }
 
@@ -809,7 +808,6 @@ body.light-mode #home img#notebook-2-white {
 
   display: flex;
   align-items: center;
-  gap: 1rem;
 
   padding: 1rem;
   border-radius: 0.8rem;
@@ -843,32 +841,6 @@ body.light-mode #home img#notebook-2-white {
 
 #contact ul li:nth-child(2) a path {
   stroke: none;
-}
-
-#contact .col-b {
-  height: 38rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-#contact .col-b img {
-  width: 13rem;
-  animation: flutuar 2.5s infinite backwards;
-  filter: brightness(1.2);
-}
-
-#contact .col-b::after {
-  content: "";
-  display: block;
-
-  width: 13rem;
-  height: 5rem;
-
-  background-color: black;
-  border-radius: 100%;
 }
 
 body.light-mode #contact .col-b::after {
@@ -1301,8 +1273,7 @@ footer .social-links li:nth-child(4) svg path:nth-child(2) {
   /*===== CONTACT =====================================*/
 
   #contact .wrapper {
-    grid-template-columns: 1fr 57.5rem;
-    grid-template-areas: "A B";
+    justify-content: center;
   }
 
   #contact .col-a {
