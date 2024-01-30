@@ -430,3 +430,7 @@ body {
 .card-5 {
     filter: hue-rotate(10deg);
   }
+
+  ol, ul {
+    padding-left: 0;
+}

@@ -1,0 +1,47 @@
+.card-img-default {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.card-login-container{
+    width: 550px;
+    
+}
+
+.card-login-conteiner {
+    background-color: #000; /* Cor de fundo preta */
+    color: #098fd3; /* Cor do texto azul */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra */
+    padding: 20px;
+}
+
+.card-login-conteiner h3 {
+    color: #e4e4e4; /* Cor do título branco */
+}
+
+.card-login-conteiner label {
+    color: #098fd3; /* Cor das etiquetas azul */
+}
+
+.card-login-conteiner input {
+    background-color: #000; /* Cor de fundo preta para os inputs */
+    color: #098fd3; /* Cor do texto azul para os inputs */
+    border: 1px solid #098fd3; /* Borda azul para os inputs */
+}
+
+.card-login-conteiner input:focus {
+    outline-color: #098fd3; /* Cor da borda ao focar nos inputs */
+}
+
+.card-login-conteiner .btn-login {
+    background-color: #098fd3; /* Cor de fundo azul para o botão */
+    color: #fff; /* Cor do texto branco para o botão */
+    border: 1px solid #098fd3; /* Borda azul para o botão */
+}
+
+.card-login-conteiner .btn-login:hover {
+    background-color: #025c8a; /* Cor de fundo preta ao passar o mouse sobre o botão */
+    color: #ffffff; /* Cor do texto azul ao passar o mouse sobre o botão */
+    transition: 0.5s;
+}

@@ -62,3 +62,12 @@
     font-family: 'Ruda' sans-serif;
     font-weight: 400;
 }
+
+.button-style{
+            /* Adicione estilos específicos para o botão se necessário */
+            cursor: pointer;
+            color: #007BFF; /* Cor do texto */
+            border: none;
+            background: none;
+            font-size: inherit;
+}
